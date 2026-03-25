@@ -45,10 +45,10 @@ const ProductDisplay = ({ product }) => {
 
         <div className="productdisplay-right-prices">
           <div className="productdisplay-right-price-old">
-            Rs{product.old_price}
+            Rs {product.old_price}
           </div>
           <div className="productdisplay-right-price-new">
-            Rs{product.new_price}
+            Rs {product.new_price}
           </div>
         </div>
 

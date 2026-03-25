@@ -11,7 +11,34 @@
   align-items: center;
   gap: 10px;
 }
+.nav-username {
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 15px;
+  color: #333;
+}
 
+.nav-user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logout-btn {
+  background: transparent;
+  border: 1.5px solid #ff4141;
+  padding: 5px 12px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #ff4141;
+  transition: 0.2s;
+}
+
+.logout-btn:hover {
+  background: #ff4141;
+  color: #fff;
+}
 .nav-logo p {
   color: #171717;
   font-size: 38px;
